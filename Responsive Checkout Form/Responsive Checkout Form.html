@@ -2,6 +2,8 @@
 <html>
     <head>
         <meta content="width=device-width, initial-scale=1" name="viewport">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
         <style>
             body {
@@ -182,7 +184,7 @@
                             <input checked="checked" name="sameadr" type="checkbox">
                             Shipping address same as billing
                         </label>
-                        <input class="btn" type="submit" value="Continue to checkout">
+                        <input onclick="validate()" class="btn" type="button" value="Continue to checkout">
                     </form>
                 </div>
             </div>
@@ -223,4 +225,48 @@
     </body>
 </html>
 
-<script></script>
+<div id="id01" class="w3-modal" style="display: none">
+    <div class="w3-modal-content w3-animate-opacity w3-card-4">
+        <header class="w3-container w3-green"> 
+            <span onclick="document.getElementById('id01').style.display='none'"  class="w3-button w3-display-topright">&times;</span>
+            <h2>Robot register</h2>
+        </header>
+        <div class="w3-container">
+            <h1>Success</h1>
+        </div>
+    </div>
+</div>
+
+<script>
+
+    function validate(){
+        let fname = $('#fname').val()
+        let email = $('#email').val()
+        let adr = $('#adr').val()
+        let city = $('#city').val()
+        let state = $('#state').val()
+        let zip = $('#zip').val()
+        let cname = $('#cname').val()
+        let ccnum =$('#ccnum').val()
+        let expmonth = $('#expmonth').val()
+        let expyear = $('#expyear').val()
+        let cvv = $('#cvv').val()
+        
+        var test_email = /^([a-zA-Z0-9_\.\-\+])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+
+        if(fname=='') alert('Please enter name')
+        else if(email=='') alert('Please enter email')
+        else if(!test_email.test(email)) alert('Please enter correct form email')
+        else if(adr=='') alert('Please enter address')
+        else if(city=='') alert('Please enter city')
+        else if(state=='') alert('Please enter state')
+        else if(zip=='') alert('Please enter zip')
+        else if(cname=='') alert('Please enter card name')
+        else if(ccnum=='') alert('Please enter credit card number')
+        else if(expmonth=='') alert('Please enter expired month')
+        else if(expyear=='') alert('Please enter expired year')
+        else if(cvv=='') alert('Please enter cvv')
+        else $('#id01').show();
+    }
+
+</script>
