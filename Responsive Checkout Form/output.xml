@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 3.1.2 (Python 3.7.4 on win32)" generated="20191110 18:06:55.959" rpa="false">
+<robot generator="Robot 3.1.2 (Python 3.7.4 on win32)" generated="20191110 19:09:10.413" rpa="false">
 <suite id="s1" name="Res Form" source="E:\My programming\robot-framework\Responsive Checkout Form\res_form.robot">
 <test id="s1-t1" name="กรณีบันทึกสำเร็จ">
 <kw name="เปิดเบราว์เซอร์" library="key">
@@ -9,22 +9,22 @@
 <arg>${url}</arg>
 <arg>gc</arg>
 </arguments>
-<msg timestamp="20191110 18:06:56.149" level="INFO">Opening browser 'gc' to base url 'file:///E:/My%20programming/robot-framework/Responsive%20Checkout%20Form/Responsive%20Checkout%20Form.html'.</msg>
-<status status="PASS" starttime="20191110 18:06:56.149" endtime="20191110 18:06:59.098"></status>
+<msg timestamp="20191110 19:09:10.606" level="INFO">Opening browser 'gc' to base url 'file:///E:/My%20programming/robot-framework/Responsive%20Checkout%20Form/Responsive%20Checkout%20Form.html'.</msg>
+<status status="PASS" starttime="20191110 19:09:10.606" endtime="20191110 19:09:13.786"></status>
 </kw>
 <kw name="Maximize Browser Window" library="Selenium2Library">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" starttime="20191110 18:06:59.099" endtime="20191110 18:07:00.214"></status>
+<status status="PASS" starttime="20191110 19:09:13.786" endtime="20191110 19:09:14.901"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>1s</arg>
 </arguments>
-<msg timestamp="20191110 18:07:01.215" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20191110 18:07:00.215" endtime="20191110 18:07:01.215"></status>
+<msg timestamp="20191110 19:09:15.902" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20191110 19:09:14.901" endtime="20191110 19:09:15.902"></status>
 </kw>
-<status status="PASS" starttime="20191110 18:06:56.148" endtime="20191110 18:07:01.215"></status>
+<status status="PASS" starttime="20191110 19:09:10.605" endtime="20191110 19:09:15.902"></status>
 </kw>
 <kw name="กรอกชื่อจริง &quot;Namchok&quot;" library="key">
 <kw name="Input Text" library="Selenium2Library">
@@ -33,18 +33,18 @@
 <arg>${input_name}</arg>
 <arg>${name}</arg>
 </arguments>
-<msg timestamp="20191110 18:07:01.216" level="INFO">Typing text 'Namchok' into text field 'xpath=//*[@id="fname"]'.</msg>
-<status status="PASS" starttime="20191110 18:07:01.216" endtime="20191110 18:07:01.285"></status>
+<msg timestamp="20191110 19:09:15.903" level="INFO">Typing text 'Namchok' into text field 'xpath=//*[@id="fname"]'.</msg>
+<status status="PASS" starttime="20191110 19:09:15.903" endtime="20191110 19:09:15.971"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>1s</arg>
 </arguments>
-<msg timestamp="20191110 18:07:02.286" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20191110 18:07:01.285" endtime="20191110 18:07:02.286"></status>
+<msg timestamp="20191110 19:09:16.972" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20191110 19:09:15.971" endtime="20191110 19:09:16.972"></status>
 </kw>
-<status status="PASS" starttime="20191110 18:07:01.216" endtime="20191110 18:07:02.286"></status>
+<status status="PASS" starttime="20191110 19:09:15.903" endtime="20191110 19:09:16.972"></status>
 </kw>
 <kw name="กรอกอีเมล &quot;pech@gg.com&quot;" library="key">
 <kw name="Input Text" library="Selenium2Library">
@@ -53,18 +53,18 @@
 <arg>${input_email}</arg>
 <arg>${email}</arg>
 </arguments>
-<msg timestamp="20191110 18:07:02.287" level="INFO">Typing text 'pech@gg.com' into text field 'xpath=//*[@id="email"]'.</msg>
-<status status="PASS" starttime="20191110 18:07:02.287" endtime="20191110 18:07:02.355"></status>
+<msg timestamp="20191110 19:09:16.973" level="INFO">Typing text 'pech@gg.com' into text field 'xpath=//*[@id="email"]'.</msg>
+<status status="PASS" starttime="20191110 19:09:16.973" endtime="20191110 19:09:17.043"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>1s</arg>
 </arguments>
-<msg timestamp="20191110 18:07:03.358" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20191110 18:07:02.356" endtime="20191110 18:07:03.358"></status>
+<msg timestamp="20191110 19:09:18.044" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20191110 19:09:17.043" endtime="20191110 19:09:18.044"></status>
 </kw>
-<status status="PASS" starttime="20191110 18:07:02.287" endtime="20191110 18:07:03.358"></status>
+<status status="PASS" starttime="20191110 19:09:16.973" endtime="20191110 19:09:18.044"></status>
 </kw>
 <kw name="กรอกที่อยู่ &quot;192 road 123&quot;" library="key">
 <kw name="Input Text" library="Selenium2Library">
@@ -73,18 +73,18 @@
 <arg>${input_address}</arg>
 <arg>${address}</arg>
 </arguments>
-<msg timestamp="20191110 18:07:03.359" level="INFO">Typing text '192 road 123' into text field 'xpath=//*[@id="adr"]'.</msg>
-<status status="PASS" starttime="20191110 18:07:03.359" endtime="20191110 18:07:03.441"></status>
+<msg timestamp="20191110 19:09:18.045" level="INFO">Typing text '192 road 123' into text field 'xpath=//*[@id="adr"]'.</msg>
+<status status="PASS" starttime="20191110 19:09:18.045" endtime="20191110 19:09:18.122"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>1s</arg>
 </arguments>
-<msg timestamp="20191110 18:07:04.441" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20191110 18:07:03.441" endtime="20191110 18:07:04.441"></status>
+<msg timestamp="20191110 19:09:19.122" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20191110 19:09:18.122" endtime="20191110 19:09:19.122"></status>
 </kw>
-<status status="PASS" starttime="20191110 18:07:03.359" endtime="20191110 18:07:04.441"></status>
+<status status="PASS" starttime="20191110 19:09:18.044" endtime="20191110 19:09:19.122"></status>
 </kw>
 <kw name="กรอกเมือง &quot;Parise&quot;" library="key">
 <kw name="Input Text" library="Selenium2Library">
@@ -93,18 +93,18 @@
 <arg>${input_city}</arg>
 <arg>${city}</arg>
 </arguments>
-<msg timestamp="20191110 18:07:04.442" level="INFO">Typing text 'Parise' into text field 'xpath=//*[@id="city"]'.</msg>
-<status status="PASS" starttime="20191110 18:07:04.442" endtime="20191110 18:07:04.506"></status>
+<msg timestamp="20191110 19:09:19.123" level="INFO">Typing text 'Parise' into text field 'xpath=//*[@id="city"]'.</msg>
+<status status="PASS" starttime="20191110 19:09:19.123" endtime="20191110 19:09:19.184"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>1s</arg>
 </arguments>
-<msg timestamp="20191110 18:07:05.507" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20191110 18:07:04.506" endtime="20191110 18:07:05.507"></status>
+<msg timestamp="20191110 19:09:20.186" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20191110 19:09:19.184" endtime="20191110 19:09:20.186"></status>
 </kw>
-<status status="PASS" starttime="20191110 18:07:04.442" endtime="20191110 18:07:05.507"></status>
+<status status="PASS" starttime="20191110 19:09:19.122" endtime="20191110 19:09:20.186"></status>
 </kw>
 <kw name="กรอกจังหวัด &quot;Rodon&quot;" library="key">
 <kw name="Input Text" library="Selenium2Library">
@@ -113,18 +113,18 @@
 <arg>${input_state}</arg>
 <arg>${state}</arg>
 </arguments>
-<msg timestamp="20191110 18:07:05.508" level="INFO">Typing text 'Rodon' into text field 'xpath=//*[@id="state"]'.</msg>
-<status status="PASS" starttime="20191110 18:07:05.508" endtime="20191110 18:07:05.569"></status>
+<msg timestamp="20191110 19:09:20.187" level="INFO">Typing text 'Rodon' into text field 'xpath=//*[@id="state"]'.</msg>
+<status status="PASS" starttime="20191110 19:09:20.187" endtime="20191110 19:09:20.245"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>1s</arg>
 </arguments>
-<msg timestamp="20191110 18:07:06.570" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20191110 18:07:05.569" endtime="20191110 18:07:06.570"></status>
+<msg timestamp="20191110 19:09:21.248" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20191110 19:09:20.246" endtime="20191110 19:09:21.248"></status>
 </kw>
-<status status="PASS" starttime="20191110 18:07:05.508" endtime="20191110 18:07:06.570"></status>
+<status status="PASS" starttime="20191110 19:09:20.186" endtime="20191110 19:09:21.248"></status>
 </kw>
 <kw name="กรอกรหัสไปรษณีย์ &quot;2333&quot;" library="key">
 <kw name="Input Text" library="Selenium2Library">
@@ -133,18 +133,18 @@
 <arg>${input_zip}</arg>
 <arg>${zip}</arg>
 </arguments>
-<msg timestamp="20191110 18:07:06.571" level="INFO">Typing text '2333' into text field 'xpath=//*[@id="zip"]'.</msg>
-<status status="PASS" starttime="20191110 18:07:06.571" endtime="20191110 18:07:06.630"></status>
+<msg timestamp="20191110 19:09:21.249" level="INFO">Typing text '2333' into text field 'xpath=//*[@id="zip"]'.</msg>
+<status status="PASS" starttime="20191110 19:09:21.249" endtime="20191110 19:09:21.314"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>1s</arg>
 </arguments>
-<msg timestamp="20191110 18:07:07.632" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20191110 18:07:06.630" endtime="20191110 18:07:07.632"></status>
+<msg timestamp="20191110 19:09:22.314" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20191110 19:09:21.314" endtime="20191110 19:09:22.314"></status>
 </kw>
-<status status="PASS" starttime="20191110 18:07:06.571" endtime="20191110 18:07:07.632"></status>
+<status status="PASS" starttime="20191110 19:09:21.248" endtime="20191110 19:09:22.314"></status>
 </kw>
 <kw name="กรอกชื่อเครดิตการ์ด &quot;Namchok&quot;" library="key">
 <kw name="Input Text" library="Selenium2Library">
@@ -153,18 +153,18 @@
 <arg>${input_cname}</arg>
 <arg>${cname}</arg>
 </arguments>
-<msg timestamp="20191110 18:07:07.633" level="INFO">Typing text 'Namchok' into text field 'xpath=//*[@id="cname"]'.</msg>
-<status status="PASS" starttime="20191110 18:07:07.633" endtime="20191110 18:07:07.696"></status>
+<msg timestamp="20191110 19:09:22.315" level="INFO">Typing text 'Namchok' into text field 'xpath=//*[@id="cname"]'.</msg>
+<status status="PASS" starttime="20191110 19:09:22.315" endtime="20191110 19:09:22.378"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>1s</arg>
 </arguments>
-<msg timestamp="20191110 18:07:08.698" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20191110 18:07:07.697" endtime="20191110 18:07:08.698"></status>
+<msg timestamp="20191110 19:09:23.378" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20191110 19:09:22.378" endtime="20191110 19:09:23.378"></status>
 </kw>
-<status status="PASS" starttime="20191110 18:07:07.633" endtime="20191110 18:07:08.698"></status>
+<status status="PASS" starttime="20191110 19:09:22.315" endtime="20191110 19:09:23.378"></status>
 </kw>
 <kw name="กรอกเลขเครดิตการ์ด &quot;4111222233334444&quot;" library="key">
 <kw name="Input Text" library="Selenium2Library">
@@ -173,18 +173,18 @@
 <arg>${input_ccnum}</arg>
 <arg>${ccnum}</arg>
 </arguments>
-<msg timestamp="20191110 18:07:08.699" level="INFO">Typing text '4111222233334444' into text field 'xpath=//*[@id="ccnum"]'.</msg>
-<status status="PASS" starttime="20191110 18:07:08.699" endtime="20191110 18:07:08.774"></status>
+<msg timestamp="20191110 19:09:23.379" level="INFO">Typing text '4111222233334444' into text field 'xpath=//*[@id="ccnum"]'.</msg>
+<status status="PASS" starttime="20191110 19:09:23.379" endtime="20191110 19:09:23.457"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>1s</arg>
 </arguments>
-<msg timestamp="20191110 18:07:09.774" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20191110 18:07:08.774" endtime="20191110 18:07:09.774"></status>
+<msg timestamp="20191110 19:09:24.459" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20191110 19:09:23.457" endtime="20191110 19:09:24.459"></status>
 </kw>
-<status status="PASS" starttime="20191110 18:07:08.699" endtime="20191110 18:07:09.774"></status>
+<status status="PASS" starttime="20191110 19:09:23.379" endtime="20191110 19:09:24.459"></status>
 </kw>
 <kw name="กรอกเดือนหมดอายุ &quot;September&quot;" library="key">
 <kw name="Input Text" library="Selenium2Library">
@@ -193,18 +193,18 @@
 <arg>${input_expmonth}</arg>
 <arg>${expmonth}</arg>
 </arguments>
-<msg timestamp="20191110 18:07:09.775" level="INFO">Typing text 'September' into text field 'xpath=//*[@id="expmonth"]'.</msg>
-<status status="PASS" starttime="20191110 18:07:09.775" endtime="20191110 18:07:09.844"></status>
+<msg timestamp="20191110 19:09:24.459" level="INFO">Typing text 'September' into text field 'xpath=//*[@id="expmonth"]'.</msg>
+<status status="PASS" starttime="20191110 19:09:24.459" endtime="20191110 19:09:24.527"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>1s</arg>
 </arguments>
-<msg timestamp="20191110 18:07:10.844" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20191110 18:07:09.844" endtime="20191110 18:07:10.844"></status>
+<msg timestamp="20191110 19:09:25.527" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20191110 19:09:24.527" endtime="20191110 19:09:25.527"></status>
 </kw>
-<status status="PASS" starttime="20191110 18:07:09.775" endtime="20191110 18:07:10.844"></status>
+<status status="PASS" starttime="20191110 19:09:24.459" endtime="20191110 19:09:25.527"></status>
 </kw>
 <kw name="กรอกปีหมดอายุ &quot;2019&quot;" library="key">
 <kw name="Input Text" library="Selenium2Library">
@@ -213,18 +213,18 @@
 <arg>${input_expyear}</arg>
 <arg>${expyear}</arg>
 </arguments>
-<msg timestamp="20191110 18:07:10.845" level="INFO">Typing text '2019' into text field 'xpath=//*[@id="expyear"]'.</msg>
-<status status="PASS" starttime="20191110 18:07:10.845" endtime="20191110 18:07:10.908"></status>
+<msg timestamp="20191110 19:09:25.528" level="INFO">Typing text '2019' into text field 'xpath=//*[@id="expyear"]'.</msg>
+<status status="PASS" starttime="20191110 19:09:25.528" endtime="20191110 19:09:25.587"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>1s</arg>
 </arguments>
-<msg timestamp="20191110 18:07:11.908" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20191110 18:07:10.908" endtime="20191110 18:07:11.908"></status>
+<msg timestamp="20191110 19:09:26.589" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20191110 19:09:25.587" endtime="20191110 19:09:26.589"></status>
 </kw>
-<status status="PASS" starttime="20191110 18:07:10.844" endtime="20191110 18:07:11.908"></status>
+<status status="PASS" starttime="20191110 19:09:25.527" endtime="20191110 19:09:26.589"></status>
 </kw>
 <kw name="กรอกCVV &quot;123&quot;" library="key">
 <kw name="Input Text" library="Selenium2Library">
@@ -233,122 +233,67 @@
 <arg>${input_cvv}</arg>
 <arg>${cvv}</arg>
 </arguments>
-<msg timestamp="20191110 18:07:11.909" level="INFO">Typing text '123' into text field 'xpath=//*[@id="cvv"]'.</msg>
-<status status="PASS" starttime="20191110 18:07:11.909" endtime="20191110 18:07:11.967"></status>
+<msg timestamp="20191110 19:09:26.590" level="INFO">Typing text '123' into text field 'xpath=//*[@id="cvv"]'.</msg>
+<status status="PASS" starttime="20191110 19:09:26.590" endtime="20191110 19:09:26.649"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>1s</arg>
 </arguments>
-<msg timestamp="20191110 18:07:12.968" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20191110 18:07:11.967" endtime="20191110 18:07:12.968"></status>
+<msg timestamp="20191110 19:09:27.650" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20191110 19:09:26.649" endtime="20191110 19:09:27.650"></status>
 </kw>
-<status status="PASS" starttime="20191110 18:07:11.908" endtime="20191110 18:07:12.968"></status>
+<status status="PASS" starttime="20191110 19:09:26.590" endtime="20191110 19:09:27.650"></status>
+</kw>
+<kw name="กดปุ่มยืนยัน" library="key">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${btn_comfirm}</arg>
+</arguments>
+<msg timestamp="20191110 19:09:27.651" level="INFO">Clicking element 'xpath=/html/body/div[1]/div/div/form/input'.</msg>
+<status status="PASS" starttime="20191110 19:09:27.651" endtime="20191110 19:09:27.693"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5s</arg>
+</arguments>
+<msg timestamp="20191110 19:09:32.695" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20191110 19:09:27.693" endtime="20191110 19:09:32.695"></status>
+</kw>
+<status status="PASS" starttime="20191110 19:09:27.651" endtime="20191110 19:09:32.695"></status>
 </kw>
 <kw name="ปิดเบราว์เซอร์" library="key">
 <kw name="Close Browser" library="Selenium2Library">
 <doc>Closes the current browser.</doc>
-<status status="PASS" starttime="20191110 18:07:12.969" endtime="20191110 18:07:15.263"></status>
+<status status="PASS" starttime="20191110 19:09:32.695" endtime="20191110 19:09:34.782"></status>
 </kw>
-<status status="PASS" starttime="20191110 18:07:12.968" endtime="20191110 18:07:15.263"></status>
+<status status="PASS" starttime="20191110 19:09:32.695" endtime="20191110 19:09:34.782"></status>
 </kw>
 <tags>
 <tag>Success</tag>
 </tags>
-<status status="PASS" starttime="20191110 18:06:56.147" endtime="20191110 18:07:15.263" critical="yes"></status>
-</test>
-<test id="s1-t2" name="กรณีปล่อยว่าง">
-<tags>
-<tag>Blank</tag>
-</tags>
-<status status="FAIL" starttime="20191110 18:07:15.264" endtime="20191110 18:07:15.267" critical="yes">Test case contains no keywords.</status>
-</test>
-<test id="s1-t3" name="กรณีบันทึกไม่สำเร็จไม่ได้บันทึกชื่อ">
-<tags>
-<tag>Fail</tag>
-</tags>
-<status status="FAIL" starttime="20191110 18:07:15.269" endtime="20191110 18:07:15.274" critical="yes">Test case contains no keywords.</status>
-</test>
-<test id="s1-t4" name="กรณีบันทึกไม่สำเร็จไม่ได้บันทึกอีเมล">
-<tags>
-<tag>Fail</tag>
-</tags>
-<status status="FAIL" starttime="20191110 18:07:15.276" endtime="20191110 18:07:15.278" critical="yes">Test case contains no keywords.</status>
-</test>
-<test id="s1-t5" name="กรณีบันทึกไม่สำเร็จไม่ได้บันทึกที่อยู่">
-<tags>
-<tag>Fail</tag>
-</tags>
-<status status="FAIL" starttime="20191110 18:07:15.280" endtime="20191110 18:07:15.283" critical="yes">Test case contains no keywords.</status>
-</test>
-<test id="s1-t6" name="กรณีบันทึกไม่สำเร็จไม่ได้บันทึกเมือง">
-<tags>
-<tag>Fail</tag>
-</tags>
-<status status="FAIL" starttime="20191110 18:07:15.285" endtime="20191110 18:07:15.288" critical="yes">Test case contains no keywords.</status>
-</test>
-<test id="s1-t7" name="กรณีบันทึกไม่สำเร็จไม่ได้บันทึกจังหวัด">
-<tags>
-<tag>Fail</tag>
-</tags>
-<status status="FAIL" starttime="20191110 18:07:15.289" endtime="20191110 18:07:15.291" critical="yes">Test case contains no keywords.</status>
-</test>
-<test id="s1-t8" name="กรณีบันทึกไม่สำเร็จไม่ได้บันทึกรหัสไปรษณีย์">
-<tags>
-<tag>Fail</tag>
-</tags>
-<status status="FAIL" starttime="20191110 18:07:15.293" endtime="20191110 18:07:15.295" critical="yes">Test case contains no keywords.</status>
-</test>
-<test id="s1-t9" name="กรณีบันทึกไม่สำเร็จไม่ได้บันทึกชื่อเจ้าของบัตร">
-<tags>
-<tag>Fail</tag>
-</tags>
-<status status="FAIL" starttime="20191110 18:07:15.296" endtime="20191110 18:07:15.299" critical="yes">Test case contains no keywords.</status>
-</test>
-<test id="s1-t10" name="กรณีบันทึกไม่สำเร็จไม่ได้บันทึกหมายเลขบัตร">
-<tags>
-<tag>Fail</tag>
-</tags>
-<status status="FAIL" starttime="20191110 18:07:15.302" endtime="20191110 18:07:15.304" critical="yes">Test case contains no keywords.</status>
-</test>
-<test id="s1-t11" name="กรณีบันทึกไม่สำเร็จไม่ได้บันทึกเดือนหมดอายุบัตร">
-<tags>
-<tag>Fail</tag>
-</tags>
-<status status="FAIL" starttime="20191110 18:07:15.306" endtime="20191110 18:07:15.309" critical="yes">Test case contains no keywords.</status>
-</test>
-<test id="s1-t12" name="กรณีบันทึกไม่สำเร็จไม่ได้บันทึกปีหมดอายุบัตร">
-<tags>
-<tag>Fail</tag>
-</tags>
-<status status="FAIL" starttime="20191110 18:07:15.311" endtime="20191110 18:07:15.313" critical="yes">Test case contains no keywords.</status>
-</test>
-<test id="s1-t13" name="กรณีบันทึกไม่สำเร็จไม่ได้บันทึกรหัส CVV">
-<tags>
-<tag>Fail</tag>
-</tags>
-<status status="FAIL" starttime="20191110 18:07:15.315" endtime="20191110 18:07:15.317" critical="yes">Test case contains no keywords.</status>
+<status status="PASS" starttime="20191110 19:09:10.604" endtime="20191110 19:09:34.783" critical="yes"></status>
 </test>
 <doc>"การทดสอบคครั้งนี้ทำเพื่อทดสอบการบันทึกฟอร์ม"</doc>
-<status status="FAIL" starttime="20191110 18:06:55.961" endtime="20191110 18:07:15.320"></status>
+<status status="PASS" starttime="20191110 19:09:10.414" endtime="20191110 19:09:34.784"></status>
 </suite>
 <statistics>
 <total>
-<stat pass="1" fail="12">Critical Tests</stat>
-<stat pass="1" fail="12">All Tests</stat>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
 </total>
 <tag>
-<stat pass="0" fail="1">Blank</stat>
-<stat pass="0" fail="11">Fail</stat>
 <stat pass="1" fail="0">Success</stat>
 </tag>
 <suite>
-<stat pass="1" fail="12" id="s1" name="Res Form">Res Form</stat>
+<stat pass="1" fail="0" id="s1" name="Res Form">Res Form</stat>
 </suite>
 </statistics>
 <errors>
-<msg timestamp="20191110 18:06:56.141" level="ERROR">Error in file 'E:\My programming\robot-framework\Responsive Checkout Form\key.resource': Importing test library 'selenium2Library' failed: ModuleNotFoundError: No module named 'selenium2Library'
+<msg timestamp="20191110 19:09:10.599" level="ERROR">Error in file 'E:\My programming\robot-framework\Responsive Checkout Form\key.resource': Importing test library 'selenium2Library' failed: ModuleNotFoundError: No module named 'selenium2Library'
 Traceback (most recent call last):
   None
 PYTHONPATH:
