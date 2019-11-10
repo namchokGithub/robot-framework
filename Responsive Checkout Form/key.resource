@@ -52,5 +52,9 @@ Resource                        var.resource
     Input Text                  ${input_cvv}       ${cvv}
     sleep                       1s  
 
+กดปุ่มยืนยัน
+    Click Element               ${btn_comfirm}
+    sleep                       5s
+
 ปิดเบราว์เซอร์
     Close Browser
