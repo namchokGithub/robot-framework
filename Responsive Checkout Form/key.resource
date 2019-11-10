@@ -1,5 +1,4 @@
 ***Settings***
-Library                         selenium2Library
 Resource                        var.resource
 
 ***Keywords***
@@ -54,7 +53,12 @@ Resource                        var.resource
 
 กดปุ่มยืนยัน
     Click Element               ${btn_comfirm}
-    sleep                       5s
+    sleep                       1s
+
+กดยืนการแจ้งเตือน
+    sleep                       1s           
+    Handle Alert      
+    sleep                       1s           
 
 ปิดเบราว์เซอร์
     Close Browser
