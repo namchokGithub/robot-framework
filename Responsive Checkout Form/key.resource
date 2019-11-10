@@ -31,7 +31,7 @@ Resource                        var.resource
 กรอกรหัสไปรษณีย์ "${zip}"
     Input Text                  ${input_zip}       ${zip}
     sleep                       1s  
-` 
+
 กรอกชื่อเครดิตการ์ด "${cname}"
     Input Text                  ${input_cname}       ${cname}
     sleep                       1s  
