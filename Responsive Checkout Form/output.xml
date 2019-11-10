@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.2 (Python 3.7.4 on win32)" generated="20191110 16:27:46.065" rpa="false">
+<suite id="s1" name="Res Form" source="E:\My programming\robot-framework\Responsive Checkout Form\res_form.robot">
+<test id="s1-t1" name="กรณีบันทึกสำเร็จ">
+<kw name="เปิดเบราว์เซอร์" library="key">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>${url}</arg>
+<arg>gc</arg>
+</arguments>
+<msg timestamp="20191110 16:27:46.259" level="INFO">Opening browser 'gc' to base url 'file:///E:/My%20programming/robot-framework/Responsive%20Checkout%20Form/Responsive%20Checkout%20Form.html'.</msg>
+<status status="PASS" starttime="20191110 16:27:46.259" endtime="20191110 16:27:48.983"></status>
+</kw>
+<kw name="Maximize Browser Window" library="Selenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20191110 16:27:48.983" endtime="20191110 16:27:50.099"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20191110 16:27:51.101" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20191110 16:27:50.099" endtime="20191110 16:27:51.101"></status>
+</kw>
+<status status="PASS" starttime="20191110 16:27:46.258" endtime="20191110 16:27:51.101"></status>
+</kw>
+<kw name="ปิดเบราว์เซอร์" library="key">
+<kw name="Close Browser" library="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20191110 16:27:51.102" endtime="20191110 16:27:53.177"></status>
+</kw>
+<status status="PASS" starttime="20191110 16:27:51.101" endtime="20191110 16:27:53.177"></status>
+</kw>
+<tags>
+<tag>Success</tag>
+</tags>
+<status status="PASS" starttime="20191110 16:27:46.256" endtime="20191110 16:27:53.178" critical="yes"></status>
+</test>
+<test id="s1-t2" name="กรณีปล่อยว่าง">
+<tags>
+<tag>Blank</tag>
+</tags>
+<status status="FAIL" starttime="20191110 16:27:53.179" endtime="20191110 16:27:53.180" critical="yes">Test case contains no keywords.</status>
+</test>
+<test id="s1-t3" name="กรณีบันทึกไม่สำเร็จไม่ได้บันทึกชื่อ">
+<tags>
+<tag>Fail</tag>
+</tags>
+<status status="FAIL" starttime="20191110 16:27:53.181" endtime="20191110 16:27:53.183" critical="yes">Test case contains no keywords.</status>
+</test>
+<test id="s1-t4" name="กรณีบันทึกไม่สำเร็จไม่ได้บันทึกอีเมล">
+<tags>
+<tag>Fail</tag>
+</tags>
+<status status="FAIL" starttime="20191110 16:27:53.185" endtime="20191110 16:27:53.187" critical="yes">Test case contains no keywords.</status>
+</test>
+<test id="s1-t5" name="กรณีบันทึกไม่สำเร็จไม่ได้บันทึกที่อยู่">
+<tags>
+<tag>Fail</tag>
+</tags>
+<status status="FAIL" starttime="20191110 16:27:53.188" endtime="20191110 16:27:53.191" critical="yes">Test case contains no keywords.</status>
+</test>
+<test id="s1-t6" name="กรณีบันทึกไม่สำเร็จไม่ได้บันทึกเมือง">
+<tags>
+<tag>Fail</tag>
+</tags>
+<status status="FAIL" starttime="20191110 16:27:53.192" endtime="20191110 16:27:53.194" critical="yes">Test case contains no keywords.</status>
+</test>
+<test id="s1-t7" name="กรณีบันทึกไม่สำเร็จไม่ได้บันทึกจังหวัด">
+<tags>
+<tag>Fail</tag>
+</tags>
+<status status="FAIL" starttime="20191110 16:27:53.196" endtime="20191110 16:27:53.198" critical="yes">Test case contains no keywords.</status>
+</test>
+<test id="s1-t8" name="กรณีบันทึกไม่สำเร็จไม่ได้บันทึกรหัสไปรษณีย์">
+<tags>
+<tag>Fail</tag>
+</tags>
+<status status="FAIL" starttime="20191110 16:27:53.200" endtime="20191110 16:27:53.202" critical="yes">Test case contains no keywords.</status>
+</test>
+<test id="s1-t9" name="กรณีบันทึกไม่สำเร็จไม่ได้บันทึกชื่อเจ้าของบัตร">
+<tags>
+<tag>Fail</tag>
+</tags>
+<status status="FAIL" starttime="20191110 16:27:53.204" endtime="20191110 16:27:53.206" critical="yes">Test case contains no keywords.</status>
+</test>
+<test id="s1-t10" name="กรณีบันทึกไม่สำเร็จไม่ได้บันทึกหมายเลขบัตร">
+<tags>
+<tag>Fail</tag>
+</tags>
+<status status="FAIL" starttime="20191110 16:27:53.208" endtime="20191110 16:27:53.211" critical="yes">Test case contains no keywords.</status>
+</test>
+<test id="s1-t11" name="กรณีบันทึกไม่สำเร็จไม่ได้บันทึกเดือนหมดอายุบัตร">
+<tags>
+<tag>Fail</tag>
+</tags>
+<status status="FAIL" starttime="20191110 16:27:53.213" endtime="20191110 16:27:53.250" critical="yes">Test case contains no keywords.</status>
+</test>
+<test id="s1-t12" name="กรณีบันทึกไม่สำเร็จไม่ได้บันทึกปีหมดอายุบัตร">
+<tags>
+<tag>Fail</tag>
+</tags>
+<status status="FAIL" starttime="20191110 16:27:53.252" endtime="20191110 16:27:53.254" critical="yes">Test case contains no keywords.</status>
+</test>
+<test id="s1-t13" name="กรณีบันทึกไม่สำเร็จไม่ได้บันทึกรหัส CVV">
+<tags>
+<tag>Fail</tag>
+</tags>
+<status status="FAIL" starttime="20191110 16:27:53.255" endtime="20191110 16:27:53.258" critical="yes">Test case contains no keywords.</status>
+</test>
+<doc>"การทดสอบคครั้งนี้ทำเพื่อทดสอบการบันทึกฟอร์ม"</doc>
+<status status="FAIL" starttime="20191110 16:27:46.066" endtime="20191110 16:27:53.261"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="12">Critical Tests</stat>
+<stat pass="1" fail="12">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1">Blank</stat>
+<stat pass="0" fail="11">Fail</stat>
+<stat pass="1" fail="0">Success</stat>
+</tag>
+<suite>
+<stat pass="1" fail="12" id="s1" name="Res Form">Res Form</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20191110 16:27:46.252" level="ERROR">Error in file 'E:\My programming\robot-framework\Responsive Checkout Form\key.resource': Importing test library 'selenium2Library' failed: ModuleNotFoundError: No module named 'selenium2Library'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\Namchok\AppData\Local\Programs\Python\Python37-32\Scripts\robot.exe
+  c:\users\namchok\appdata\local\programs\python\python37-32\python37.zip
+  c:\users\namchok\appdata\local\programs\python\python37-32\DLLs
+  c:\users\namchok\appdata\local\programs\python\python37-32\lib
+  c:\users\namchok\appdata\local\programs\python\python37-32
+  c:\users\namchok\appdata\local\programs\python\python37-32\lib\site-packages</msg>
+</errors>
+</robot>
